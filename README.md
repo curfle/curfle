@@ -7,4 +7,4 @@ composer create-project laravel/laravel example-app
 
 ## License
 
-The Curfle framework is open-sourced software licensed under the [MIT license](LICENSE.md).
+The Curfle framework is open-sourced software licensed under the [MIT license](LICENSE).
