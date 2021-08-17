@@ -2,7 +2,7 @@
 ## Installation
 You can create a new Curfle project by simply executing:
 ```bash
-composer create-project laravel/laravel example-app
+composer create-project curfle/curfle example-app
 ```
 
 ## License
