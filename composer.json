@@ -1,5 +1,7 @@
 {
+  "name" : "curfle/curfle",
   "type": "project",
+  "homepage": "https://github.com/curfle/curfle",
   "description": "",
   "keywords": [],
   "require": {
