@@ -16,8 +16,7 @@ return [
     "guardians" => [
         "default" => [
             "drivers" => [
-                \Curfle\Auth\Guardians\Guardian::DRIVER_BEARER,
-                \Curfle\Auth\Guardians\Guardian::DRIVER_SESSION
+                \Curfle\Auth\Guardians\Guardian::DRIVER_BEARER
             ],
             "authenticatable" => \App\Models\User::class,
             "guardian" => \Curfle\Auth\Guardians\JWTGuardian::class
