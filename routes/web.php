@@ -8,5 +8,5 @@ use Curfle\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return "hello world!";
+    return view("hello", ["to" => "world"]);
 });
