@@ -7,6 +7,6 @@ use Curfle\Support\Facades\Route;
  * will receive the web middleware stack. Now start creating something awesome!
  */
 
-Route::get('/', function () {
+Route::get("/", function () {
     return view("hello", ["to" => "world"]);
 });

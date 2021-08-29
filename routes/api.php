@@ -9,6 +9,6 @@ use Curfle\Support\Facades\Route;
  * will receive the "api" middleware group. Also, they will get the
  * "/api" prefix. Enjoy building your api!
  */
-Route::get('/user/all', function (Request $request) {
-    return User::all();
-});
+Route::get("/user/all", [\App\Http\Controllers\UserController::class, "all"]);
+Route::get("/user/{id}", [\App\Http\Controllers\UserController::class, "get"])
+    ->where("id", "[0-9]+");
