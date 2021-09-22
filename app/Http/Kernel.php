@@ -3,7 +3,7 @@
 namespace App\Http;
 
 use Curfle\Auth\Middleware\Authenticate;
-use \Curfle\Essence\Http\Kernel as HttpKernel;
+use Curfle\Essence\Http\Kernel as HttpKernel;
 use Curfle\Http\Middleware\AllowCors;
 use Curfle\Http\Middleware\TrimStrings;
 

@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use Curfle\Essence\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Curfle\Http\Request;
 use Curfle\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider

@@ -1,7 +1,5 @@
 <?php
 
-use Curfle\Support\Str;
-
 return [
 
     /**

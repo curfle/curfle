@@ -10,7 +10,7 @@ return [
 
     /**
      * The environment the app is currently running in. This
-     * could be eg. production or local.
+     * could be e.g. production or local.
      */
     "env" => env("APP_ENV", "production"),
 
