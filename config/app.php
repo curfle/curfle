@@ -50,6 +50,7 @@ return [
         Curfle\Essence\Providers\ConsoleSupportServiceProvider::class,
         Curfle\Database\DatabaseServiceProvider::class,
         Curfle\Mail\MailServiceProvider::class,
+        Curfle\DAO\ModelServiceProvider::class,
         Curfle\Hash\HashServiceProvider::class,
         Curfle\Auth\AuthenticationServiceProvider::class,
         Curfle\View\ViewServiceProvider::class,
