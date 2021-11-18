@@ -28,6 +28,11 @@ return [
     "url" => env("APP_URL", "http://localhost"),
 
     /**
+     * The applications' timezone. This timezone is set as default Chronos timezone.
+     */
+    "timezone" => "UTC",
+
+    /**
      * The applications' encryption key. This is used for signing or encrypting
      * data like JWTs. It is highly recommended to no set this in the config file,
      * but using the environemt variable instead, as the secret should not be shared
