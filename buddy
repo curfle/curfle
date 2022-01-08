@@ -25,3 +25,8 @@ $kernel = $app->make(Kernel::class);
 $kernel->run(
     $request = Input::capture()
 )->send();
+
+/**
+ * Terminate the kernel
+ */
+$kernel->terminate();
