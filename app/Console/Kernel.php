@@ -3,7 +3,6 @@
 namespace App\Console;
 
 use Curfle\Console\Schedule;
-use Curfle\Essence\Application;
 use Curfle\Essence\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
