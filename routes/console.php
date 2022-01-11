@@ -8,7 +8,7 @@ use Curfle\Support\Facades\Buddy;
  * simple approach to interacting with each command's IO methods.
  */
 
-Buddy::command('inspire', function (\Curfle\Console\Input $input) {
+Buddy::command("inspire", function (\Curfle\Console\Input $input) {
     $inspiring = [
         "“Ruby is rubbish! PHP is phpantastic!” – Nikita Popov",
         "“Simplicity is the soul of efficiency.” – Austin Freeman",
